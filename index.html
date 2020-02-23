@@ -344,6 +344,45 @@
     </section>
 
 
+    <section class="partners">
+        
+        <div class="heading">
+            <h2>Our Partners / Our Clients</h2>
+        </div>
+        <section class="customer-logos slider">
+            <div class="slide">
+                <img src="img/mri/clients/aar.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/apa.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/fa.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/madison.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/minet.png">
+            </div>
+           <div class="slide">
+               <img src="img/mri/clients/mtn.png">
+           </div>
+            <div class="slide">
+                <img src="img/mri/clients/nhif.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/private.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/trident.png">
+            </div>
+            <div class="slide">
+                <img src="img/mri/clients/uap.png">
+            </div>
+        </section>
+    </section>
+
 
     <section class="sign-up">
         <div class="container">
@@ -389,6 +428,7 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
@@ -428,6 +468,48 @@
             log: function() { }
         };
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    $(document).ready(function(){
+    $('.customer-logos').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+    breakpoint: 768,
+    settings: {
+    slidesToShow: 4
+    }
+    }, {
+    breakpoint: 520,
+    settings: {
+    slidesToShow: 3
+    }
+    }]
+    });
+    });
     </script>
 </body>
 </html>
