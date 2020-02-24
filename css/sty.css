@@ -1,10 +1,4 @@
-/*
 
-Victory HTML CSS Template
-
-https://templatemo.com/tm-507-victory
-
-*/
 
 * {
     margin: 0;
@@ -633,13 +627,13 @@ footer ul li i:hover {
 
 .text-overlay {
 	padding: 30px;
-	background-color: rgba(42, 160, 228, 0.5);
+	background-color: rgba(0, 0, 0, .5);
 }
 
 
 section.page-heading {
 	padding: 80px 0px;
-	background-image: url(../img/mri/mri-2813904_1280.jpg);
+	background-image: url(../img/mri/health-2082630_1280.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1277,7 +1271,7 @@ li.active a {
 	height: 100%;
 	z-index: 2;
 	background-color: #080d15;
-	opacity: .2;
+	opacity: .1;
 }
 
 /********************************/
@@ -1311,7 +1305,7 @@ li.active a {
 }
 
 .fade-carousel .slides .slide-1 {
-	background-image: url(../img/mri/upper-body-944557_1280\ \(1\).jpg);
+	background-image: url(../img/mri/x-ray-image-4753329_1280.jpg);
 }
 
 .fade-carousel .slides .slide-2 {
@@ -1319,7 +1313,7 @@ li.active a {
 }
 
 .fade-carousel .slides .slide-3 {
-	background-image: url(../img/mri/mri-2813904_1280.jpg);
+	background-image: url(../img/mri/blood-1968458_1280.png);
 }
 
 /********************************/
@@ -1376,7 +1370,6 @@ li.active a {
 	font-weight: 700;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	color: ;
 	text-align: center;
 }
 .partners {
